@@ -1,3 +1,16 @@
+# Smilodon - a soft fork of Mastodon
+
+Welcome! :wave: Smilodon is my soft fork of Mastodon to include some changes to the main Mastodon app that works for me.
+As a soft fork, I don't plan on this project getting far away from the core features of Mastodon.
+99% of the codebase will remain the same.
+
+## What's Different?
+
+Currently, not much.
+Just getting started.
+The first focus will be adding a U.S. based English locale to the app.
+As an American, it drives me nuts to see "favourite" everywhere. :smile:
+
 <h1><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./lib/assets/wordmark.dark.png?raw=true">
   <source media="(prefers-color-scheme: light)" srcset="./lib/assets/wordmark.light.png?raw=true">
