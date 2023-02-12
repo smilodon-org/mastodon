@@ -91,9 +91,15 @@ class LinkFooter extends React.PureComponent {
           {DividingCircle}
           <Link to='/keyboard-shortcuts'><FormattedMessage id='footer.keyboard_shortcuts' defaultMessage='Keyboard shortcuts' /></Link>
           {DividingCircle}
-          <a href={source_url} rel='noopener noreferrer' target='_blank'><FormattedMessage id='footer.source_code' defaultMessage='View source code' /></a>
-          {DividingCircle}
           v{version}
+        </p>
+
+        <p>
+          <strong>Smilodon</strong>:
+          {' '}
+          v{version}+smilodon.1
+          {DividingCircle}
+          <a href='https://github.com/smilodon-org/mastodon' rel='noopener noreferrer' target='_blank'><FormattedMessage id='footer.source_code' defaultMessage='View source code' /></a>
         </p>
       </div>
     );
